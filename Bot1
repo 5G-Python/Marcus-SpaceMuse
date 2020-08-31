@@ -1,0 +1,23 @@
+print("Hello!")
+print("Welcome to iChill!")
+feeling = input('Enter how you are feeling: ')
+
+
+if feeling.lower() == "sad":
+    print('Recommendation: "Infectious" By Tobu')
+elif feeling.lower() == "depressed":
+    print('Reccomendation: "Memory" By Kaito')
+elif feeling.lower() == "code":
+    print('Recomendation: MogueHeart\'s "Still Observing". Perfect for coding in python and other languages.')
+elif feeling.lower() == "angry":
+    print("Recommendation: Always look on the bright side of life By Monty Python.")
+elif feeling.lower() == "chill" or "alright":
+    print("Uhh... Okay? Just try later once your feeling something else. Sorry, i dont have much recomendations for you.")
+elif feeling.lower() == "feeling lucky":
+    print("Try Still Observing " or " AC/DC Back in black " or " Internationale Metal version idk why ")
+elif feeling.lower() == "Like a warrior" or "Motivated":
+    print("Reccomendation: Warriors by Imagine Dragons, or Mortals by Warriyo. Pretty cool if you like really fast beats")
+elif feeling.lower() == "Existential" or "Doomer":
+    print('reccomendation: Doomer lofi mix by Zack on youtube.')
+else:
+    print("You didn't give a valid feeling, no recommendations can be given at this time.")
